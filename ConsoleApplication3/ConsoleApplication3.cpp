@@ -4,8 +4,7 @@
 
 using namespace std;
 
-int main() 
-{
+int main() {
     string s1, s2;
     cout << "Enter s1: ";
     getline(cin, s1);
@@ -15,5 +14,4 @@ int main()
     s2.erase(remove(s2.begin(), s2.end(), ' '), s2.end());
     sort(s1.begin(), s1.end());
     sort(s2.begin(), s2.end());
-    s1 == s2 ? cout << "like.": cout << "not like.";
-}
+    s1 == s2 ? cout << "like.": cout << "not like.";}
